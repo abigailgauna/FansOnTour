@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FANS ON TOUR - Viví La Msica</title>
+
+    <!-- FONTS -->
+    <link rel="icon" type="image/x-icon" href="./imagenes/fans-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Signika+Negative&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css" >
+    
+</head>
+
+<body class="bodyIndex" >
+    <header class="headerIndex">
+        
+        <nav  class="barraNavegacion">
+
+            <a href="./index.html"> <img src="./imagenes/fans-logo.png" alt="Logo de Fans On Tour" class="logo" > </a>
+            
+            <ul class="barraNavegacion__lista"> 
+            <li>
+                <a href="#" class="barraNavegacion__link"> Home</a></li>
+            <li> 
+                <a href="./paginas/sobreNosotros.html"  class="barraNavegacion__link"> Sobre Nosotros</a> </li>
+            <li>
+                <a href="./paginas/news.html"  class="barraNavegacion__link">News</a></li>
+            <li>
+                <a href="./paginas/eventos.html"  class="barraNavegacion__link">Eventos</a></li>
+            <li>
+                <a href="./paginas/contacto.html"  class="barraNavegacion__link">Contacto</a> </li>
+        </ul>
+        </nav>
+
+    </header>
+
+    
+    <main class="cuerpoIndex">
+        <section class="sectionBloque">
+            <h1>Próximos Shows </h1>
+            <p> Encontrá entradas para toda la música en vivo y fechas de gira en Buenos Aires y sus alrededores.</p>
+            <img src="./imagenes/Shows/cristiancastro.png" alt="cristian castro" class="imagenes__shows">
+            <img src="./imagenes/Shows/karolg.png" alt="karol g" class="imagenes__shows">
+            <img src="./imagenes/Shows/sebastianyatra.png" alt="sebastian yatra" class="imagenes__shows">
+            <img src="./imagenes/Shows/michaelbuble.png" alt="michael buble" class="imagenes__shows">
+        </section>
+
+        <section class="sectionBloque2" > 
+            <video autoplay muted loop id="videoNews"  >
+                <source src="./imagenes/Index/videoNews.mp4" type="video/mp4"  >
+            <a href="www.google.com"></a> </video>
+    
+        </section>
+
+        <section class="sectionBloque__Preventa">
+            <div class="titulosCentrado"> Preventas Exclusivas </div>
+            <div class="registroPreventa"> Regístrate para estar entre los primeros en comprar boletos de preventa para los espectáculos
+                <br> más populares de la ciudad antes que el público en general. Además, recibe los últimos
+                eventos y ofertas especiales directamente en tu bandeja de entrada.  </div>
+            <form class="preventaNewsletter"> 
+                <div >
+                    <label for="nombre_completo"> Nombre y Apellido: </label>
+                    <input type="text" name="nombre_completo" class="preventaNewsletter__form">
+                   </div>
+       
+                <div >
+                    <label for="email"> Email:</label>
+                    <input type="email" name="email" class="preventaNewsletter__form">
+
+                <div">
+                <input type="button" value=Enviar class="preventaNewsletter__form--button"  >
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footerIndex">
+        <ul class="footerRedes__lista">
+
+
+            <li > <a href="https://www.facebook.com/Fans-on-Tour-107709425221810" target="_blank" >
+                <img src="./imagenes/Footer/logo-facebook.png" alt="logo facebook" class="redesSociales"> 
+            </a></li>
+
+            <li><a href="https://www.instagram.com/fansontourarg" target="_blank" >
+                <img src="./imagenes/Footer/logo-instagram.png" alt="logo instagram" class="redesSociales"  >
+            </a></li>
+
+            <li><a href="https://www.twitter.com/fansontourarg" target="_blank" > 
+                <img src="./imagenes/Footer/logo-twitter.png" alt="logo twitter" class="redesSociales" >
+             </a></li>
+
+            <li><a href="https://www.youtube.com/fansontourarg" target="_blank" >
+                <img src="./imagenes/Footer/logo-youtube.png" alt="logo youtube" class="redesSociales" > 
+            </a></li>
+
+        </ul>
+
+    </footer>
+    
+</body>
+</html>
