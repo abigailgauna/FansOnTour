@@ -38,10 +38,10 @@
     .barraNavegacion__lista {
         
         list-style: none;
-    display: flex;
-    padding: 10px 0px 30px 0px;
-    flex-wrap: wrap
-    }
+        display: flex;
+        padding: 10px 0px 30px 0px;
+        flex-wrap: wrap;
+        }
     
 
     .barraNavegacion__link{color: white;
