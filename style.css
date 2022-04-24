@@ -30,8 +30,13 @@
     flex-wrap: wrap;
     }
 
+    .barraNavegacion li :hover {
+        transform: scale(1.5);
+        transition: transform 2s; 
+    }
 
     .barraNavegacion__lista {
+        
         list-style: none;
     display: flex;
     padding: 10px 0px 30px 0px;
