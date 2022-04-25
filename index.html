@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FANS ON TOUR - Viví La Msica</title>
+    <title>FANS ON TOUR - Viví La Música</title>
 
     <!-- FONTS -->
     <link rel="icon" type="image/x-icon" href="./imagenes/fans-logo.png">
@@ -14,29 +14,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Signika+Negative&display=swap" rel="stylesheet">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css" >
     
 </head>
 
-<body class="bodyIndex" >
-    <header class="headerIndex">
-        
-        <nav  class="barraNavegacion">
+<body >
 
-            <a href="./index.html"> <img src="./imagenes/fans-logo.png" alt="Logo de Fans On Tour" class="logo" > </a>
-            
-            <ul class="barraNavegacion__lista"> 
-            <li>
-                <a href="#" class="barraNavegacion__link"> Home</a></li>
-            <li> 
-                <a href="./paginas/sobreNosotros.html"  class="barraNavegacion__link"> Sobre Nosotros</a> </li>
-            <li>
-                <a href="./paginas/news.html"  class="barraNavegacion__link">News</a></li>
-            <li>
-                <a href="./paginas/eventos.html"  class="barraNavegacion__link">Eventos</a></li>
-            <li>
-                <a href="./paginas/contacto.html"  class="barraNavegacion__link">Contacto</a> </li>
+    <header class="headerIndex">
+        <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #004453;">
+            <div class="container-fluid" >
+              <a class="navbar-brand" href="index.html">  <img src="./imagenes/fans-logo.png" alt="Fans On Tour Logo" class="logo" > </a>
+        
+        
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav" style="display: flex; justify-content: center" >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/sobreNosotros.html">SOBRE NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/eventos.html">EVENTOS</a>
+                  </li>
+                  <a class="nav-link" href="./paginas/news.html">NEWS</a>
+                  </li>
+                </li>
+                <a class="nav-link" href="./paginas/contacto.html">CONTACTO</a>
+                </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </ul>
         </nav>
 
@@ -105,6 +118,6 @@
         </ul>
 
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
