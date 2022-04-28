@@ -22,7 +22,7 @@
 <body >
 
     <header class="headerIndex">
-        <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #004453;">
+        <nav class="navbar navbar-expand-lg navbar-dark " >
             <div class="container-fluid" >
               <a class="navbar-brand" href="index.html">  <img src="./imagenes/fans-logo.png" alt="Fans On Tour Logo" class="logo" > </a>
         
@@ -58,44 +58,122 @@
     
     <main class="cuerpoIndex">
         <section class="sectionBloque">
-            <h1>Próximos Shows </h1>
-            <p> Encontrá entradas para toda la música en vivo y fechas de gira en Buenos Aires y sus alrededores.</p>
-            <img src="./imagenes/Shows/cristiancastro.png" alt="cristian castro" class="imagenes__shows">
-            <img src="./imagenes/Shows/karolg.png" alt="karol g" class="imagenes__shows">
-            <img src="./imagenes/Shows/sebastianyatra.png" alt="sebastian yatra" class="imagenes__shows">
-            <img src="./imagenes/Shows/michaelbuble.png" alt="michael buble" class="imagenes__shows">
+            <div class="h1Title"> PRÓXIMOS SHOWS </div>
+               
+             <div class="h2Text">
+                Encontrá entradas para toda la música en vivo y fechas de gira en Buenos Aires y sus alrededores.</div>
+                
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner ">
+                  <div class="carousel-item active">
+                    <img src="./imagenes/Shows/coldplay.png" class="d-block rounded w-100" alt="Coldplay">
+                    
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/Shows/daddyYankee.png" class="d-block rounded w-100" alt="Daddy Yankee">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/Shows/tini.png" class="d-block rounded w-100" alt="Tini">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/Shows/fonsi.png" class="d-block rounded w-100" alt=" Luis Fonsi">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/Shows/karolG.png" class="d-block rounded w-100" alt="Karol G">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
         </section>
 
-        <section class="sectionBloque2" > 
-            <video autoplay muted loop id="videoNews"  >
-                <source src="./imagenes/Index/videoNews.mp4" type="video/mp4"  >
-            <a href="www.google.com"></a> </video>
-    
+        <section class="sectionBloque2">
+          
+            <div class="card">
+                <img src="./imagenes/ShowCards/MichaelBuble.png" class="card-img-top" alt="Michael Buble">
+                <div class="card-body">
+                  <h5 class="card-title"> Michael Buble </h5>
+                  <p class="card-text"> 12 Noviembre 2022 </p>
+                  <a href="https://www.movistararena.com.ar/show/michael-buble/" class="btn btn-primary"> Comprá tu entrada</a>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+
+              <div class="card">
+                <img src="./imagenes/ShowCards/Lali.png" class="card-img-top" alt="Lali">
+                <div class="card-body">
+                  <h5 class="card-title">Lali</h5>
+                  <p class="card-text">27 Agosto 2022  </p>
+                  <a href="https://entradauno.com/lali/11670?h=2c6bada2ed0cdc1c5ffac1da055294e813c840dc" class="btn btn-primary">Comprá tu entrada</a>
+                </div>
+              </div>
+              
+              <div class="card" >
+                <img src="./imagenes/ShowCards/badbunny.png" class="card-img-top" alt="Bad Bunny">
+                <div class="card-body">
+                  <h5 class="card-title">Bad Bunny - World's Hottest Tour</h5>
+                  <p class="card-text"> 4 y 5 de Noviembre 2022 </p>
+                  <a href="https://livepass.com.ar/events/bad-bunny-world-s-hottest-tour" class="btn btn-primary">Comprá tu entrada</a>
+                </div>
+              </div>
+
+              <div class="card" >
+                <img src="./imagenes/ShowCards/Rosalia.png" class="card-img-top" alt="Rosalia">
+                <div class="card-body">
+                  <h5 class="card-title">Rosalía
+                    </h5>
+                  <p class="card-text">25 Agosto 2022</p>
+                  <a href="https://www.movistararena.com.ar/show/rosalia/" class="btn btn-primary">Comprá tu entrada</a>
+                </div>
+              </div>
+         
+        </section>
+
+        
+
+        
         </section>
 
         <section class="sectionBloque__Preventa">
-            <div class="titulosCentrado"> Preventas Exclusivas </div>
+            <div class="titulosCentrados"> PREVENTAS EXCLUSIVAS </div>
             <div class="registroPreventa"> Regístrate para estar entre los primeros en comprar boletos de preventa para los espectáculos
                 <br> más populares de la ciudad antes que el público en general. Además, recibe los últimos
                 eventos y ofertas especiales directamente en tu bandeja de entrada.  </div>
-            <form class="preventaNewsletter"> 
-                <div >
-                    <label for="nombre_completo"> Nombre y Apellido: </label>
-                    <input type="text" name="nombre_completo" class="preventaNewsletter__form">
-                   </div>
-       
-                <div >
-                    <label for="email"> Email:</label>
-                    <input type="email" name="email" class="preventaNewsletter__form">
+        
+        
+                <form>
+                  <div class="form-row">
+                    <div class="col-formulario">
+                      <input type="text" class="form-control" placeholder="Nombre y Apellido">
+                    </div>
+                    <div class="col-formulario">
+                      <input type="text" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="col-formulario">
+                      <input type="button" value=Enviar class="preventaNewsletter__form--button">
+                  </div>
+          </section>
 
-                <div">
-                <input type="button" value=Enviar class="preventaNewsletter__form--button"  >
-            </div>
-        </section>
+        
 
     </main>
 
-    <footer class="footerIndex">
+    <footer class="footer" >
         <ul class="footerRedes__lista">
 
 

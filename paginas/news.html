@@ -23,35 +23,54 @@
 </head>
 
 <body>
-    <header>
-        
-        <nav class="barraNavegacion">
-            <a href="../index.html"> <img src="../imagenes/fans-logo.png" alt="Logo de Fans On Tour" class="logo"> </a>
-            <ul class="barraNavegacion__lista"> 
-            <li>
-                <a href="../index.html" class="barraNavegacion__link"> Home</a></li>
-            <li> 
-                <a href="./sobreNosotros.html" class="barraNavegacion__link"> Sobre Nosotros</a> </li>
-            <li>
-                <a href="#" class="barraNavegacion__link">News</a></li>
-            <li>
-                <a href="./eventos.html" class="barraNavegacion__link">Eventos</a></li>
-            <li>
-                <a href="./contacto.html" class="barraNavegacion__link">Contacto</a> </li>
-        </ul>
-        </nav>
-
-
-
-    </header>
+        <header class="headerIndex">
+            <nav class="navbar navbar-expand-lg navbar-dark " >
+                <div class="container-fluid" >
+                  <a class="navbar-brand" href="../index.html">  <img src="../imagenes/fans-logo.png" alt="Fans On Tour Logo" class="logo" > </a>
+            
+            
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="navbarNav" style="justify-content: center" >
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./sobreNosotros.html">SOBRE NOSOTROS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./eventos.html">EVENTOS</a>
+                      </li>
+                      <a class="nav-link" href="#">NEWS</a>
+                      </li>
+                    </li>
+                    <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                    </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </ul>
+            </nav>
+    
+        </header>
+    
+    
 
     
-    <main>
+    <main class="cuerpoIndex">
 
+        <section class="sectionBloqueVideo" > 
+            <video autoplay muted loop id="videoNews"  >
+                <source src="../imagenes/Index/videoNews.mp4" type="video/mp4"  >
+                <a href="./paginas/news.html"></a> </video>
+          </section>
 
     </main>
 
-    <footer>
+    <footer class="footer">
         <ul class="footerRedes__lista">
             <li> <a href="https://www.facebook.com/Fans-on-Tour-107709425221810" target="_blank">
                 <img src="../imagenes/Footer/logo-facebook.png" alt="logo facebook" class="redesSociales" > 
