@@ -18,7 +18,7 @@
     .logo{
         width: 150px;
         margin: 10px;
-        }
+         }
     
 /* MAIN */
 
@@ -47,8 +47,8 @@
             color: #f68e2d;
             font-weight: 2px;
             text-shadow: #272626b3 3px 3px 1px;
+           
         }
-
     .h2Text{
         font-size: 25px;
         font-family: 'Maven Pro', sans-serif;
@@ -117,7 +117,28 @@
         color: #f68e2d;
         font-weight: 2px;
         text-shadow: #272626b3 3px 3px 1px;
+        animation-name: slide-in;
+        animation-duration: 10s;
+        animation-delay: 0s;
         }
+        
+        @keyframes slide-in {
+            from {
+                margin-left: 50%;
+                width: 50%;
+              }
+            
+              50% {
+                margin-left: 0%;
+                width: 100%;
+              }
+
+              to {
+                margin-left: 50%;
+                width: 50%;
+              }
+
+            }
 
     .registroPreventa{
         font-size: 25px; 
@@ -126,6 +147,7 @@
         margin: 10px;
         text-align: center;
         }
+
     .col-formulario{
         padding: 10px;
         overflow: hidden;
@@ -157,10 +179,8 @@
         padding:6px 20px;
         margin-left: 10px;
         text-decoration:none;
-        text-shadow:0px 1px 0px #ffffff;}
-
-
-
+        text-shadow:0px 1px 0px #ffffff;
+        }
 
 /* Main Contacto*/
         .cuerpo__Formulario--h2{
@@ -204,7 +224,7 @@
         display: flex;
         justify-content: center;
         padding-bottom: 20px;
-        }
+       }
 
  /*MAIN NEWS */
 .sectionBloqueVideo{
@@ -248,6 +268,18 @@
         justify-items: center;
         flex-wrap: wrap;
         overflow: hidden;
+        animation-name: fondo-colorido;
+        animation-duration: 15s;
+      }
+      
+      @keyframes fondo-colorido{
+        0%   {background-color: red;}
+        15%  {background-color: orange;}
+        25%  {background-color: yellow;}
+        50%  {background-color: green;}
+        70%  {background-color: blue;}
+        100% {background-color: violet;}
+              
         }  
 
 .cuerpo__Formulario { grid-template-columns: 1 / 2;
