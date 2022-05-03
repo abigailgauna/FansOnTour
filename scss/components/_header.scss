@@ -1,0 +1,17 @@
+.header {position: sticky;
+top: 0px;
+border: solid 1px black;
+font-family: $font-family-principal;
+z-index:100;
+ }
+
+ .nav-link{ 
+    font-size: 22px;
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+
+.logo{
+    width: 150px;
+    margin: 10px;
+     }

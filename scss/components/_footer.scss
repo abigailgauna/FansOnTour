@@ -1,0 +1,39 @@
+.footer{ 
+    padding: 40px 10px 90px 10px;
+    background-size: cover;
+    overflow: hidden;
+    background-color: $color-principal ;
+    }
+
+    .row{
+        background-color: $color-principal;
+        display:flex;
+        flex-direction: row;
+        }
+
+.footer__dr{
+        background-color: $color-principal;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        color: $font-color;
+        font-family: $font-family-principal;
+        font-size: 20px;
+        margin: 20px;
+        }
+
+.footer__logos{
+        background-color: $color-principal;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        padding-left: 20px;
+        padding-right: 30px;
+        padding-top: 20px;     
+        }
+
+.fa-brands{
+        background-color: $color-principal;
+        color: $font-color;
+        font-size: 35px;
+        }

@@ -1,0 +1,50 @@
+.header {
+  position: sticky;
+  top: 0px;
+  border: solid 1px black;
+  font-family: "Signika Negative", sans-serif;
+  z-index: 100; }
+
+.nav-link {
+  font-size: 22px;
+  margin-left: 30px;
+  margin-right: 30px; }
+
+.logo {
+  width: 150px;
+  margin: 10px; }
+
+.footer {
+  padding: 40px 10px 90px 10px;
+  background-size: cover;
+  overflow: hidden;
+  background-color: #004453; }
+
+.row {
+  background-color: #004453;
+  display: flex;
+  flex-direction: row; }
+
+.footer__dr {
+  background-color: #004453;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: white;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 20px;
+  margin: 20px; }
+
+.footer__logos {
+  background-color: #004453;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-top: 20px; }
+
+.fa-brands {
+  background-color: #004453;
+  color: white;
+  font-size: 35px; }
