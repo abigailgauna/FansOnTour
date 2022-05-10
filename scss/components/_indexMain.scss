@@ -1,0 +1,153 @@
+.cuerpo{
+    background-color: map-get($background-colores, color-principal );
+    align-content: center;
+    padding-top: 30px;    
+    padding-bottom: 20px;
+    }
+
+/* MAIN INDEX */
+    .cuerpoIndex {
+        background-image: map-get($background-colores, color-gradiante);
+        padding: 20px;
+        }
+
+    .sectionBloque{
+        padding: 30px 15px 30px 15px; 
+        }
+        
+    .h1Title{
+            font-size: map-get($size-titulos, titulos);
+            font-weight: 3px;
+            font-family: $font-family-principal;
+            text-align: center;
+            color: map-get($letrasFuentes-Colores,colorTitulos);
+            font-weight: 2px;
+            text-shadow: #272626b3 3px 3px 1px;
+           
+        }
+    .h2Text{
+        font-size: map-get($size-titulos, subtitulos);
+        margin: 10px;
+        @extend %parrafos-diseño;
+        }
+
+
+    .carousel-item img{
+        object-fit:cover;
+        }
+
+    .sectionBloque2{
+        @include flexbox (row,space-evenly);
+        padding-bottom: 50px;
+        padding-top: 50px;
+        }
+
+    .card-img-top{
+        width: 25rem;
+        }
+    
+    .card{
+        display: flex;
+        overflow: hidden;
+    }
+    .sectionBloque__Preventa {
+        margin: 10px 20px 10px 50px;
+        padding: 10px 30px 30px 30px;
+        flex-wrap: wrap;
+        text-align: center;
+        align-content:space-between;
+        align-items: center;
+        border: 1px solid ;
+        background-color: #f68e2d3d;
+        border-radius: 21px;
+        }
+
+    .registroPreventa {
+        justify-content: space-between;
+        @extend %parrafos-diseño;
+        font-weight: 2px;
+        margin: 20px 30px 30px 50px;
+        padding: 10px 20px 10px 50px;
+        } 
+
+    .preventaNewsletter{
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        font-family: $font-family-principal;
+        font-weight: 1px;
+        font-size: 30px;
+        }
+    .titulosCentrados{
+        overflow: hidden;
+        font-size: 50px;
+        font-weight: 3px;
+        font-family: $font-family-principal;
+        text-align: center;
+        color: map-get($letrasFuentes-Colores, colorTitulos);
+        font-weight: 2px;
+        text-shadow: #272626b3 3px 3px 1px;
+        animation-name: slide-in;
+        animation-duration: 10s;
+        animation-delay: 0s;
+        }
+        
+        @keyframes slide-in {
+            from {
+                margin-left: 50%;
+                width: 50%;
+              }
+            
+              50% {
+                margin-left: 0%;
+                width: 100%;
+              }
+
+              to {
+                margin-left: 50%;
+                width: 50%;
+              }
+
+            }
+
+    .registroPreventa{
+        font-size: map-get($size-titulos,subtitulos ); 
+        font-family: 'Maven Pro', sans-serif; 
+        color: white;
+        margin: 10px;
+        text-align: center;
+        }
+
+    .col-formulario{
+        padding: 10px;
+        overflow: hidden;
+    }
+    .form-row{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+
+        }
+    .form-control{
+        width: 400px;
+        height: 45px;
+        font-size: 20px;
+       
+        }
+
+    .preventaNewsletter__form--button { align-items: center;
+        display: inline-block;
+        box-shadow:inset 0px 1px 0px 0px #ffffff;
+        background-color:#f9f9f9;
+        border-radius:6px;
+        border:1px solid #dcdcdc;
+        cursor:pointer;
+        color:#666666;
+        font-family:'Signika Negative', sans-serif ;
+        font-size: 20px;
+        font-weight:bold;
+        padding:6px 20px;
+        margin-left: 10px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffffff;
+        }

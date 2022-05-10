@@ -1,3 +1,6 @@
+.h2Text, .registroPreventa {
+  text-align: center; }
+
 .header {
   position: sticky;
   top: 0px;
@@ -28,8 +31,8 @@
 .footer__dr {
   background-color: #004453;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  direction: row;
+  justify-content: space-evenly;
   color: white;
   font-family: "Signika Negative", sans-serif;
   font-size: 20px;
@@ -38,7 +41,7 @@
 .footer__logos {
   background-color: #004453;
   display: flex;
-  flex-direction: row;
+  direction: row;
   justify-content: space-around;
   padding-left: 20px;
   padding-right: 30px;
@@ -48,3 +51,134 @@
   background-color: #004453;
   color: white;
   font-size: 35px; }
+
+.cuerpo {
+  background-color: #004453;
+  align-content: center;
+  padding-top: 30px;
+  padding-bottom: 20px; }
+
+/* MAIN INDEX */
+.cuerpoIndex {
+  background-image: linear-gradient(to right, #7f1a3dea, #012c36f4);
+  padding: 20px; }
+
+.sectionBloque {
+  padding: 30px 15px 30px 15px; }
+
+.h1Title {
+  font-size: 50px;
+  font-weight: 3px;
+  font-family: "Signika Negative", sans-serif;
+  text-align: center;
+  color: #f68e2d;
+  font-weight: 2px;
+  text-shadow: #272626b3 3px 3px 1px; }
+
+.h2Text {
+  font-size: 25px;
+  margin: 10px; }
+
+.carousel-item img {
+  object-fit: cover; }
+
+.sectionBloque2 {
+  display: flex;
+  direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+  padding-top: 50px; }
+
+.card-img-top {
+  width: 25rem; }
+
+.card {
+  display: flex;
+  overflow: hidden; }
+
+.sectionBloque__Preventa {
+  margin: 10px 20px 10px 50px;
+  padding: 10px 30px 30px 30px;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  background-color: #f68e2d3d;
+  border-radius: 21px; }
+
+.registroPreventa {
+  justify-content: space-between;
+  font-weight: 2px;
+  margin: 20px 30px 30px 50px;
+  padding: 10px 20px 10px 50px; }
+
+.preventaNewsletter {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 1px;
+  font-size: 30px; }
+
+.titulosCentrados {
+  overflow: hidden;
+  font-size: 50px;
+  font-weight: 3px;
+  font-family: "Signika Negative", sans-serif;
+  text-align: center;
+  color: #f68e2d;
+  font-weight: 2px;
+  text-shadow: #272626b3 3px 3px 1px;
+  animation-name: slide-in;
+  animation-duration: 10s;
+  animation-delay: 0s; }
+
+@keyframes slide-in {
+  from {
+    margin-left: 50%;
+    width: 50%; }
+  50% {
+    margin-left: 0%;
+    width: 100%; }
+  to {
+    margin-left: 50%;
+    width: 50%; } }
+
+.registroPreventa {
+  font-size: 25px;
+  font-family: 'Maven Pro', sans-serif;
+  color: white;
+  margin: 10px;
+  text-align: center; }
+
+.col-formulario {
+  padding: 10px;
+  overflow: hidden; }
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.form-control {
+  width: 400px;
+  height: 45px;
+  font-size: 20px; }
+
+.preventaNewsletter__form--button {
+  align-items: center;
+  display: inline-block;
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  cursor: pointer;
+  color: #666666;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 6px 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff; }

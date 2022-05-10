@@ -1,3 +1,32 @@
-$color-principal:#004453;
+
+$size-titulos:(
+    titulos: 50px,
+    subtitulos: 25px,
+);
+
+$background-colores:(
+    color-principal: #004453,
+    color-gradiante:linear-gradient( to right, #7f1a3dea, #012c36f4 ),
+);
+
+$letrasFuentes-Colores:(
+    colorFuente: white,
+    colorTitulos: #f68e2d,
+    
+);
+
+%parrafos-diseño{
+    $font-family-principal: 'Signika Negative', sans-serif;
+    $font-color: white;
+    text-align: center;
+};
+
 $font-family-principal: 'Signika Negative', sans-serif;
 $font-color: white;
+
+@mixin flexbox ($direction,$justify) {    
+display:flex;
+direction: $direction;
+justify-content: $justify;
+
+}
