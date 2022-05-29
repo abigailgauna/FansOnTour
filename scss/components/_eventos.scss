@@ -1,0 +1,30 @@
+.cuerpoIndex {
+  background-color: map-get($background-colores, color-lineargradient );
+  padding: 20px;
+  }
+
+  .h1Title{
+        font-size: 50px;
+        font-weight: 3px;
+        font-family: $font-family-principal;
+        text-align: center;
+        color: map-get($letrasFuentes-Colores, colorTitulos );
+        font-weight: 2px;
+        text-shadow: #272626b3 3px 3px 1px;
+    }
+
+    .sectionEventos{
+      padding-bottom: 50px;
+      padding-top: 50px;
+      flex: wrap; }    
+
+    .card{
+    
+      overflow: hidden;
+      background-color: map-get($background-colores, color-cards ) ;
+      color: $font-color;
+    }
+    .card-img-top{
+      width: 25rem;
+      }
+

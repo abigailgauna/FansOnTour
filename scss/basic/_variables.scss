@@ -7,7 +7,9 @@ $size-titulos:(
 $background-colores:(
     color-principal: #004453,
     color-gradiante:linear-gradient( to right, #7f1a3dea, #012c36f4 ),
-);
+    color-cards: rgba(128, 128, 128, 0.237),
+    color-lineargradient:linear-gradient( to right, #7f1a3dea, #012c36f4 ),
+    );
 
 $letrasFuentes-Colores:(
     colorFuente: white,
@@ -21,8 +23,13 @@ $letrasFuentes-Colores:(
     text-align: center;
 };
 
+%parrafos-flexcenter{
+    display: flex;
+    justify-content: center;
+}
 
 $font-family-principal: 'Signika Negative', sans-serif;
+$font-family-texto: 'Maven Pro', sans-serif;
 $font-color: white;
 
 @mixin flexbox ($direction,$justify) {    

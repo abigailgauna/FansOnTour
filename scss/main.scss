@@ -1,4 +1,7 @@
 @import "./basic/variables";
-@import "./components/header";
+@import "./components/_header.scss";
+@import "./components/_indexMain.scss";
+@import "./components/news";
+@import "./components/_sobreNosotros.scss";
+@import "./components/_contacto.scss";
 @import "./components/footer";
-@import "./components/indexMain";

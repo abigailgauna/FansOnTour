@@ -1,0 +1,39 @@
+
+.sectionBloqueVideo{
+    @include flexbox (row,space-evenly);
+    padding-bottom: 30px;
+    }
+
+
+#videoNews {
+    @include flexbox (row,flex-start);
+    width: 98vw;
+    padding: none;
+    overflow-x: hidden;
+    flex-wrap: wrap }
+
+
+    .cardsNews{
+        @include flexbox (row,space-evenly);
+        padding-bottom: 50px;
+        padding-top: 50px;
+        flex-wrap: wrap;
+        }
+    
+        .cardsNews_SegundaFila{
+            @include flexbox (row,space-evenly);
+            padding-bottom: 50px;
+            padding-top: 50px;
+            flex-wrap: wrap;
+            }
+            
+        .card-img-top{
+            width: 25rem;
+            }
+        
+        .card{
+            display: flex;
+            overflow: hidden;
+        }
+    
+    

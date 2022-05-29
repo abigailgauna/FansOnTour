@@ -79,11 +79,8 @@
         display: flex;
         overflow: hidden;
         background-color: rgba(128, 128, 128, 0.237);
-        color: white;
+        color:white
     }
-
-
-
 
     
     .sectionBloque__Preventa {
@@ -300,7 +297,7 @@
         background-image: linear-gradient( to right, #7f1a3dea, #004453cb );
         padding: 50px;
         display: grid; 
-       
+        z-index:100;
         row-gap: 10px;
         justify-items: center;
         flex-wrap: wrap;
@@ -325,6 +322,7 @@
         margin: 100px;
         flex-wrap: wrap;
         overflow: hidden;
+        z-index:100;
         }
 
 .cuerpo__Formulario--h2{
