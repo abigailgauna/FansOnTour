@@ -14,17 +14,23 @@
     }
 
     .sectionEventos{
-      padding-bottom: 50px;
-      padding-top: 50px;
-      flex: wrap; }    
+      display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+      
+    }
 
     .card{
-    
-      overflow: hidden;
       background-color: map-get($background-colores, color-cards ) ;
       color: $font-color;
+       display: flex;
+      overflow: hidden;
     }
     .card-img-top{
       width: 25rem;
       }
+      
 
